@@ -14,6 +14,10 @@
             margin-top: 10px;
             margin-bottom: 10px;
         }
+        .dark{
+            background: #000;
+            color: #fff;
+        }
 
     </style>
 
@@ -22,7 +26,7 @@
 </head>
 <body>
     <section>
-        <div style="border: solid 1px; height: 400px; " class="container">
+        <div style="border: solid 1px; height: 1600px; " class="container">
             <div class="row">
                 <div class="col exemplo-cor text-center">
                     Coluna1
@@ -76,16 +80,58 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-4 exemplo-cor text-center">
+                <div class="col-12 col-sm-4 dark text-center">
                     Coluna 1
                 </div>
-                <div class="col-4 exemplo-cor text-center">
+                <div class="col-6 col-sm-4 dark text-center">
                     Coluna 2
                 </div>
-                <div class="col-4 exemplo-cor text-center">
+                <div class="col-6 col-sm-4 dark text-center">
                     Coluna 3
                 </div>
             </div>
+        <!-- Alinhamento de linha vertical-->
+            <div class="row align-items-center" style="min-height: 250px; border: solid red;">
+                <div class="col-4 dark text-center">
+                    Alinhamento de linha
+                </div>
+                <div class="col-4 dark text-center">
+                    Alinhamento de linha <br>
+                    Alinhamento de linha <br>
+                    Alinhamento de linha
+                </div>
+                <div class="col-4 dark text-center">
+                    Alinhamento de linha
+                </div>
+            </div> 
+        <!-- Alinhamento de linha vertical-->
+        <!-- Alinhamento individual de coluna -->
+            <div class="row" style="min-height: 250px; border: solid blue;">
+                <div class="col-4 align-self-start exemplo-cor text-center">
+                    Alinhamento Individual
+                </div>
+                <div class="col-4 align-self-center exemplo-cor text-center">
+                    Alinhamento Individual
+                </div>
+                <div class="col-4 align-self-end exemplo-cor text-center">
+                    Alinhamento Individual
+                </div>            
+            </div> 
+        <!-- Alinhamento individual de coluna-->
+        <!--Alinhamento horizontal de linha -->
+           <div class="row justify-content-evenly" style="min-height: 250px; border: solid green;">
+            <div class="col-2 dark text-center">
+                Alinhamento Horizontal
+            </div>
+            <div class="col-2 dark text-center">
+                Alinhamento Horizontal
+            </div>
+            <div class="col-2 dark text-center">
+                Alinhamento Horizontal
+            </div>                     
+           </div> 
+
+        <!--Alinhamento horizontal de linha -->
 
         </div>
     </section>    
