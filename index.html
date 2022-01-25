@@ -18,6 +18,10 @@
             background: #000;
             color: #fff;
         }
+        .destaque{
+            background: red;
+            color: #fff;
+        }
 
     </style>
 
@@ -95,7 +99,7 @@
                 <div class="col-4 dark text-center">
                     Alinhamento de linha
                 </div>
-                <div class="col-4 dark text-center">
+                <div class="col-4 destaque text-center">
                     Alinhamento de linha <br>
                     Alinhamento de linha <br>
                     Alinhamento de linha
@@ -129,9 +133,34 @@
             <div class="col-2 dark text-center">
                 Alinhamento Horizontal
             </div>                     
-           </div> 
-
+           </div>
         <!--Alinhamento horizontal de linha -->
+        <!--Alinhando colunas com offset -->
+           <div class="row" style="min-height: 250px; border: solid violet;">
+                <div class="col-2 offset-lg-3 offset-sm-1 exemplo-cor text-center">
+                    Alinhamento offset
+                </div>
+                <div class="col-2 exemplo-cor text-center">
+                    Alinhamento offset
+                </div>
+                <div class="col-2 exemplo-cor text-center">
+                    Alinhamento offset
+                </div>
+            </div>        
+        <!--Alinhando colunas com offset -->
+        <!-- Ordenando colunas com a classe order -->
+            <div class="row " style="min-height: 250px; border: solid red;">
+                <div class="col-2 dark text-center">
+                    Serviço 1
+                </div>
+                <div class="col-2 order-sm-1 destaque text-center">
+                    Serviço destaque
+                </div>
+                <div class="col-2 dark text-center">
+                    Serviço 3
+                </div>
+            </div>
+        <!-- Ordenando colunas com a classe order -->   
 
         </div>
     </section>    
